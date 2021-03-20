@@ -1,0 +1,7 @@
+server:
+  port: 9093
+spring:
+  application:
+    name: inventory-failover
+  zipkin:
+    base-url: http://192.168.99.101:9411
