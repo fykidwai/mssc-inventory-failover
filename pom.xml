@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.fykidwai</groupId>
         <artifactId>fyk-beer-works-bom</artifactId>
         <version>1.13</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <artifactId>mssc-inventory-failover</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>mssc-inventory-failover</name>
     <description>Example JMS project</description>
     <url>https://github.com/fykidwai/mssc-inventory-failover</url>
@@ -19,7 +17,7 @@
         <connection>scm:git:https://github.com/fykidwai/mssc-inventory-failover.git</connection>
         <developerConnection>scm:git:https://fykidwai@github.com/fykidwai/mssc-inventory-failover.git
         </developerConnection>
-        <tag>HEAD</tag>
+        <tag>v0.0.1</tag>
     </scm>
     <issueManagement>
         <url>https://github.com/fykidwai/mssc-inventory-failover/issues</url>
